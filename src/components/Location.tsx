@@ -129,7 +129,7 @@ const Location = () => {
             </h3>
             <div className="relative h-96 bg-naga-gray rounded-xl overflow-hidden">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3954.3847659187547!2d-35.013478425006!3d-8.186938981873647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab18b4de7e8f8f%3A0x0!2zUGllZGFkZSwgSmFib2F0w6NvIGRvcyBHdWFyYXJhcGVzIC0gUEU!5e0!3m2!1spt-BR!2sbr!4v1734169200000!5m2!1spt-BR!2sbr&q=Rua+Sistema+Lunar+Piedade+Jaboatão+dos+Guararapes+PE"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3954.386!2d-35.0150!3d-8.1870!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab18b4de7e8f8f%3A0x0!2zUnVhK1Npc3RlbWErTHVuYXIrUGllZGFkZStKYWJvYXTDo28rZG9zK0d1YXJhcmFwZXMrUEU!5e0!3m2!1spt-BR!2sbr!4v1734169200000!5m2!1spt-BR!2sbr"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
