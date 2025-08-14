@@ -322,7 +322,7 @@ const Services = () => {
         </div>
 
         {/* Products Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 md:gap-6">
           {filteredProducts.map((product, index) => (
             <div 
               key={index}
@@ -335,11 +335,11 @@ const Services = () => {
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                 />
               </div>
-              <div className="p-4">
-                <span className="inline-block px-3 py-1 bg-naga-gray text-xs font-medium rounded-full text-muted-foreground mb-2">
+              <div className="p-3 md:p-4">
+                <span className="inline-block px-2 md:px-3 py-1 bg-naga-gray text-xs font-medium rounded-full text-muted-foreground mb-2">
                   {product.category}
                 </span>
-                <h3 className="font-inter text-sm font-semibold text-primary leading-tight">
+                <h3 className="font-inter text-xs md:text-sm font-semibold text-primary leading-tight">
                   {product.name}
                 </h3>
               </div>

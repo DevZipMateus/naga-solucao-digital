@@ -28,24 +28,24 @@ const Hero = () => {
               <span className="inline-block px-4 py-2 bg-naga-red/10 text-naga-red rounded-full text-sm font-medium mb-4">
                 Desde 2021 em Recife-PE
               </span>
-              <h1 className="font-playfair text-4xl md:text-6xl font-bold text-naga-white mb-6">
+              <h1 className="font-playfair text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-naga-white mb-4 md:mb-6 leading-tight">
                 Sua Solução em{' '}
                 <span className="text-naga-red">Embalagens</span>{' '}
                 Está Aqui!
               </h1>
-              <p className="text-lg text-naga-white/90 mb-8 max-w-2xl">
+              <p className="text-base md:text-lg text-naga-white/90 mb-6 md:mb-8 max-w-2xl leading-relaxed">
                 A Naga Soluções LTDA industrializa filme stretch para paletização e distribui produtos para embalagens com atendimento diferenciado, qualidade e agilidade nas entregas.
               </p>
             </div>
 
-            <div className="flex flex-col sm:flex-row gap-4 mb-8">
-              <Button onClick={handleWhatsApp} className="bg-naga-red hover:bg-naga-red-dark text-white font-semibold px-8 py-6 text-lg rounded-xl shadow-red">
-                <Phone className="mr-2 h-5 w-5" />
+            <div className="flex flex-col sm:flex-row gap-3 md:gap-4 mb-6 md:mb-8">
+              <Button onClick={handleWhatsApp} className="bg-naga-red hover:bg-naga-red-dark text-white font-semibold px-6 md:px-8 py-4 md:py-6 text-base md:text-lg rounded-xl shadow-red">
+                <Phone className="mr-2 h-4 w-4 md:h-5 md:w-5" />
                 Fale Conosco
               </Button>
-              <Button variant="outline" onClick={() => scrollToSection('servicos')} className="border-2 border-naga-red text-naga-red hover:!bg-transparent hover:!border-naga-red hover:!text-naga-red font-semibold px-8 py-6 text-lg rounded-xl transition-all duration-300">
+              <Button variant="outline" onClick={() => scrollToSection('servicos')} className="border-2 border-naga-red text-naga-red hover:!bg-transparent hover:!border-naga-red hover:!text-naga-red font-semibold px-6 md:px-8 py-4 md:py-6 text-base md:text-lg rounded-xl transition-all duration-300">
                 Ver Produtos
-                <ArrowRight className="ml-2 h-5 w-5" />
+                <ArrowRight className="ml-2 h-4 w-4 md:h-5 md:w-5" />
               </Button>
             </div>
 
@@ -66,7 +66,7 @@ const Hero = () => {
           <div className="flex justify-center lg:justify-end">
             <div className="relative">
               <div className="absolute inset-0 bg-naga-red/20 rounded-full blur-2xl"></div>
-              <img src="/lovable-uploads/b76b61ba-7665-413a-a800-8d4e885996ab.png" alt="Naga Soluções - Especialistas em Embalagens" className="relative z-10 w-80 h-auto drop-shadow-2xl" />
+              <img src="/lovable-uploads/b76b61ba-7665-413a-a800-8d4e885996ab.png" alt="Naga Soluções - Especialistas em Embalagens" className="relative z-10 w-64 md:w-80 h-auto drop-shadow-2xl" />
             </div>
           </div>
         </div>

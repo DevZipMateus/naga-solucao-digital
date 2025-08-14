@@ -37,14 +37,14 @@ const Header = () => {
       <div className="container mx-auto px-4 py-2 md:py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <div className="flex items-center space-x-3">
+          <div className="flex items-center space-x-2 md:space-x-3">
             <img 
               src="/lovable-uploads/b76b61ba-7665-413a-a800-8d4e885996ab.png" 
               alt="Naga Soluções - Logo" 
-              className="h-10 w-auto"
+              className="h-8 md:h-10 w-auto"
             />
             <div>
-              <h2 className="font-playfair text-xl font-bold text-primary">Naga Soluções</h2>
+              <h2 className="font-playfair text-lg md:text-xl font-bold text-primary">Naga Soluções</h2>
               <p className="text-xs text-naga-red font-medium">Sua solução está aqui!</p>
             </div>
           </div>

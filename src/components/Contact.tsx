@@ -93,7 +93,7 @@ _Mensagem enviada via formulário do site_`;
               Envie sua Mensagem
             </h3>
             <form onSubmit={handleSubmit} className="space-y-6">
-              <div className="grid md:grid-cols-2 gap-4">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div>
                   <label htmlFor="name" className="block text-sm font-medium text-foreground mb-2">
                     Nome Completo *
