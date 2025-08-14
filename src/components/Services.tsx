@@ -25,7 +25,7 @@ const Services = () => {
     },
     {
       name: 'FITA DEMARCACAO SOLO AZUL 45X',
-      image: '/Naga solues LTDA_imagens_cliente/Cliente_1_14_FITA DEMARCACAO SOLO AZUL 45X.jpeg',
+      image: '/Naga solues LTDA_imagens_cliente/Cliente_1_14_FITA DEMARCACAO SOLO  AZUL 45X.jpeg',
       category: 'Sinalização'
     },
     {
