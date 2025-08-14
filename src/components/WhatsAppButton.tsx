@@ -1,4 +1,4 @@
-import { MessageCircle, Phone, ChevronUp, X } from 'lucide-react';
+import { Phone, ChevronUp, X } from 'lucide-react';
 import { useState, useEffect } from 'react';
 
 const WhatsAppButton = () => {
@@ -53,8 +53,8 @@ const WhatsAppButton = () => {
               onClick={() => handleContactClick(contact)}
               className="flex items-center gap-3 bg-white hover:bg-gray-50 text-gray-800 p-3 rounded-lg shadow-lg hover:shadow-xl transition-all duration-200 transform hover:scale-105 w-full min-w-[200px]"
             >
-              <div className="bg-green-500 p-2 rounded-full flex-shrink-0">
-                <MessageCircle className="h-4 w-4 text-white" />
+              <div className="flex-shrink-0">
+                <img src="/lovable-uploads/4e8ca264-2f28-453b-993e-c3bbb706bce5.png" alt="WhatsApp" className="h-8 w-8" />
               </div>
               <div className="text-left">
                 <div className="font-semibold text-sm">{contact.name}</div>
@@ -77,7 +77,7 @@ const WhatsAppButton = () => {
           <X className="h-6 w-6" />
         ) : (
           <>
-            <MessageCircle className="h-6 w-6" />
+            <img src="/lovable-uploads/4e8ca264-2f28-453b-993e-c3bbb706bce5.png" alt="WhatsApp" className="h-6 w-6" />
             <div className="absolute -top-2 -right-2 bg-naga-red text-white text-xs rounded-full w-6 h-6 flex items-center justify-center animate-pulse">
               3
             </div>
