@@ -235,7 +235,7 @@ const Services = () => {
     },
     {
       name: 'PROTETOR CONCHA',
-      image: '/Naga solues LTDA_imagens_cliente/Cliente_1_52_PROTETOR CONCHA.jpg',
+      image: '/Naga solues LTDA_imagens_cliente/Cliente_1_52_PROTETOR  CONCHA.jpg',
       category: 'Segurança'
     },
     {
