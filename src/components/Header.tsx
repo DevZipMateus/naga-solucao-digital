@@ -76,19 +76,21 @@ const Header = () => {
 
         {/* Mobile Menu */}
         {isMenuOpen && (
-          <nav className="md:hidden mt-4 py-4 border-t">
-            <div className="flex flex-col space-y-3">
-              {menuItems.map((item) => (
-                <button
-                  key={item.id}
-                  onClick={() => scrollToSection(item.id)}
-                  className="font-inter text-sm font-medium text-foreground hover:text-naga-red transition-colors text-left py-2"
-                >
-                  {item.label}
-                </button>
-              ))}
-            </div>
-          </nav>
+          <div className="md:hidden absolute top-full left-0 right-0 bg-background/95 backdrop-blur-md border-t shadow-lg">
+            <nav className="container mx-auto px-4 py-6">
+              <div className="flex flex-col space-y-4">
+                {menuItems.map((item) => (
+                  <button
+                    key={item.id}
+                    onClick={() => scrollToSection(item.id)}
+                    className="font-inter text-base font-medium text-foreground hover:text-naga-red transition-colors text-left py-3 px-4 rounded-lg hover:bg-naga-red/10 border-l-4 border-transparent hover:border-naga-red"
+                  >
+                    {item.label}
+                  </button>
+                ))}
+              </div>
+            </nav>
+          </div>
         )}
       </div>
     </header>
