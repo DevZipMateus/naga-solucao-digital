@@ -51,7 +51,7 @@ const Hero = () => {
               <Button 
                 variant="outline" 
                 onClick={() => scrollToSection('servicos')}
-                className="border-2 border-naga-white text-naga-white hover:bg-naga-red hover:text-naga-white hover:border-naga-red font-semibold px-8 py-6 text-lg rounded-xl transition-all duration-300"
+                className="border-2 border-naga-white text-naga-white hover:!bg-transparent hover:!border-naga-red hover:!text-naga-red font-semibold px-8 py-6 text-lg rounded-xl transition-all duration-300"
               >
                 Ver Produtos
                 <ArrowRight className="ml-2 h-5 w-5" />
