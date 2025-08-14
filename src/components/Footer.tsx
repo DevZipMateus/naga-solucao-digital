@@ -13,7 +13,7 @@ const Footer = () => {
               <img 
                 src="/lovable-uploads/b76b61ba-7665-413a-a800-8d4e885996ab.png" 
                 alt="Naga Soluções - Logo" 
-                className="h-12 w-auto brightness-0 invert"
+                className="h-12 w-auto"
               />
               <div>
                 <h3 className="font-playfair text-xl font-bold">Naga Soluções</h3>
@@ -26,7 +26,7 @@ const Footer = () => {
             </p>
             <div className="flex items-center gap-4">
               <a 
-                href="https://instagram.com/nagasolucoes" 
+                href="https://www.instagram.com/nagasolucoes/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="bg-primary-foreground/10 p-3 rounded-full hover:bg-naga-red transition-colors"

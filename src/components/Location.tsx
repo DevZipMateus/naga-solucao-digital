@@ -47,8 +47,13 @@ const Location = () => {
                     <Phone className="h-6 w-6 text-naga-red" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-primary mb-1">Telefone</h4>
-                    <p className="text-muted-foreground">(81) 99627-9720</p>
+                    <h4 className="font-semibold text-primary mb-1">Telefones</h4>
+                    <p className="text-muted-foreground">
+                      (81) 99627-9720<br />
+                      <strong>VENDAS:</strong><br />
+                      Mariana: (81) 99985-8206<br />
+                      Andressa: (81) 99647-6916
+                    </p>
                   </div>
                 </div>
 
@@ -103,7 +108,7 @@ const Location = () => {
                   <h4 className="font-semibold text-primary mb-1">Redes Sociais</h4>
                   <p className="text-muted-foreground">
                     <a 
-                      href="https://instagram.com/nagasolucoes" 
+                      href="https://www.instagram.com/nagasolucoes/" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="text-naga-red hover:underline"
