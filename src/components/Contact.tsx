@@ -27,12 +27,29 @@ const Contact = () => {
     e.preventDefault();
     setIsSubmitting(true);
 
-    // Simulate form submission
+    // Create WhatsApp message with form data
+    const whatsappMessage = `*Contato via Site - Naga Soluções*
+
+*Nome:* ${formData.name}
+*E-mail:* ${formData.email}
+*Telefone:* ${formData.phone || 'Não informado'}
+*Assunto:* ${formData.subject || 'Contato Geral'}
+
+*Mensagem:*
+${formData.message}
+
+---
+_Mensagem enviada via formulário do site_`;
+
+    // Simulate form submission delay then redirect to WhatsApp
     setTimeout(() => {
+      window.open(`https://wa.me/5581996279720?text=${encodeURIComponent(whatsappMessage)}`, '_blank');
+      
       toast({
-        title: "Mensagem enviada com sucesso!",
-        description: "Retornaremos o contato em breve.",
+        title: "Redirecionando para WhatsApp!",
+        description: "Sua mensagem será enviada via WhatsApp.",
       });
+      
       setFormData({
         name: '',
         email: '',
@@ -41,7 +58,7 @@ const Contact = () => {
         message: ''
       });
       setIsSubmitting(false);
-    }, 2000);
+    }, 1000);
   };
 
   const handleWhatsApp = () => {
