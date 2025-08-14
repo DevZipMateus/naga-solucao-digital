@@ -22,7 +22,7 @@ const Footer = () => {
             </div>
             <p className="text-primary-foreground/80 mb-6 max-w-md">
               Desde 2021 fornecendo soluções completas em embalagens industriais 
-              com qualidade, agilidade e atendimento diferenciado em Recife-PE.
+              com qualidade, agilidade e atendimento diferenciado em Jaboatão dos Guararapes-PE.
             </p>
             <div className="flex items-center gap-4">
               <a 
@@ -45,8 +45,9 @@ const Footer = () => {
                 <MapPin className="h-5 w-5 text-naga-red mt-0.5 flex-shrink-0" />
                 <div>
                   <p className="text-sm">
-                    Rua Sistema Lunar, 22<br />
-                    Recife - PE
+                    Rua Sistema Lunar, S/N<br />
+                    Piedade - Jaboatão dos Guararapes - PE<br />
+                    CEP: 54420-145
                   </p>
                 </div>
               </div>

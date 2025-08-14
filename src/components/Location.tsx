@@ -2,7 +2,7 @@ import { MapPin, Clock, Phone, Mail } from 'lucide-react';
 
 const Location = () => {
   const handleDirections = () => {
-    window.open('https://www.google.com/maps/search/Rua+sistema+lunar,+22+Recife+PE', '_blank');
+    window.open('https://www.google.com/maps/search/Rua+Sistema+Lunar+Piedade+Jaboatão+dos+Guararapes+PE+54420-145', '_blank');
   };
 
   return (
@@ -36,8 +36,9 @@ const Location = () => {
                   <div>
                     <h4 className="font-semibold text-primary mb-1">Endereço</h4>
                     <p className="text-muted-foreground">
-                      Rua Sistema Lunar, 22<br />
-                      Recife - PE
+                      Rua Sistema Lunar, S/N<br />
+                      Piedade - Jaboatão dos Guararapes - PE<br />
+                      CEP: 54420-145
                     </p>
                   </div>
                 </div>
@@ -128,7 +129,7 @@ const Location = () => {
             </h3>
             <div className="relative h-96 bg-naga-gray rounded-xl overflow-hidden">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3949.755089089!2d-34.8813171!3d-8.0476194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zOMKwMDInNTEuNCJTIDM0wrA1Mic1Mi43Ilc!5e0!3m2!1spt-BR!2sbr!4v1699999999999!5m2!1spt-BR!2sbr&q=Rua+Sistema+Lunar,+22,+Recife,+PE"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15799.020356356084!2d-35.01549747738285!3d-8.175802988985048!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7aae0f74a8f8d91%3A0x0!2zOMKwMDInNTEuNCJTIDM0wrA1Mic1Mi43Ilc!5e0!3m2!1spt-BR!2sbr!4v1699999999999!5m2!1spt-BR!2sbr&q=Rua+Sistema+Lunar+Piedade+Jaboatão+dos+Guararapes+PE"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
