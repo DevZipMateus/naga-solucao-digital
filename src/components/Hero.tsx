@@ -43,7 +43,7 @@ const Hero = () => {
                 <Phone className="mr-2 h-5 w-5" />
                 Fale Conosco
               </Button>
-              <Button variant="outline" onClick={() => scrollToSection('servicos')} className="border-2 border-naga- text-naga-white hover:!bg-transparent hover:!border-naga-red hover:!text-naga-red font-semibold px-8 py-6 text-lg rounded-xl transition-all duration-300">
+              <Button variant="outline" onClick={() => scrollToSection('servicos')} className="border-2 border-naga-red text-naga-red hover:!bg-transparent hover:!border-naga-red hover:!text-naga-red font-semibold px-8 py-6 text-lg rounded-xl transition-all duration-300">
                 Ver Produtos
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
