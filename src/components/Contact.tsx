@@ -10,7 +10,6 @@ const Contact = () => {
     name: '',
     email: '',
     phone: '',
-    subject: '',
     message: ''
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -33,7 +32,6 @@ const Contact = () => {
 *Nome:* ${formData.name}
 *E-mail:* ${formData.email}
 *Telefone:* ${formData.phone || 'Não informado'}
-*Assunto:* ${formData.subject || 'Contato Geral'}
 
 *Mensagem:*
 ${formData.message}
@@ -54,7 +52,6 @@ _Mensagem enviada via formulário do site_`;
         name: '',
         email: '',
         phone: '',
-        subject: '',
         message: ''
       });
       setIsSubmitting(false);
@@ -67,7 +64,7 @@ _Mensagem enviada via formulário do site_`;
   };
 
   const handleEmailDirect = () => {
-    const subject = encodeURIComponent(formData.subject || 'Contato - Naga Soluções');
+    const subject = encodeURIComponent('Contato - Naga Soluções');
     const body = encodeURIComponent(`Olá!\n\nMeu nome é ${formData.name || '[Nome]'}.\nTelefone: ${formData.phone || '[Telefone]'}\n\n${formData.message || 'Gostaria de mais informações sobre os produtos da Naga Soluções.'}\n\nAguardo retorno.\nAtenciosamente.`);
     window.open(`mailto:nagasolucoes@hotmail.com?subject=${subject}&body=${body}`, '_blank');
   };
@@ -140,21 +137,6 @@ _Mensagem enviada via formulário do site_`;
                   value={formData.email}
                   onChange={handleChange}
                   placeholder="seu@email.com"
-                  className="w-full"
-                />
-              </div>
-
-              <div>
-                <label htmlFor="subject" className="block text-sm font-medium text-foreground mb-2">
-                  Assunto
-                </label>
-                <Input
-                  id="subject"
-                  name="subject"
-                  type="text"
-                  value={formData.subject}
-                  onChange={handleChange}
-                  placeholder="Assunto da sua mensagem"
                   className="w-full"
                 />
               </div>
