@@ -270,7 +270,7 @@ const Services = () => {
     },
     {
       name: 'PLASTICO BOLHA 13M X 100M',
-      image: '/Naga solues LTDA_imagens_cliente/Cliente_1_8_PLASTICO BOLHA 13M X 100M.jpeg',
+      image: '/Naga solues LTDA_imagens_cliente/Cliente_1_8_PLASTICO  BOLHA 13M X 100M.jpeg',
       category: 'Proteção'
     },
     {
