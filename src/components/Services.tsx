@@ -275,7 +275,7 @@ const Services = () => {
     },
     {
       name: 'PAPELAO ONDULADO 13M',
-      image: '/Naga solues LTDA_imagens_cliente/Cliente_1_9_PAPELAO ONDULAD.jpeg',
+      image: '/Naga solues LTDA_imagens_cliente/Cliente_1_9_PAPELAO ONDULADO 13M.jpeg',
       category: 'Proteção'
     }
   ];
