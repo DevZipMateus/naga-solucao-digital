@@ -1,20 +1,18 @@
 import { Button } from '@/components/ui/button';
 import { ArrowRight, Phone, Mail } from 'lucide-react';
-
 const Hero = () => {
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
     if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
+      element.scrollIntoView({
+        behavior: 'smooth'
+      });
     }
   };
-
   const handleWhatsApp = () => {
     window.open('https://wa.me/5581996279720?text=Olá! Gostaria de saber mais sobre os produtos da Naga Soluções.', '_blank');
   };
-
-  return (
-    <section id="inicio" className="min-h-screen flex items-center relative overflow-hidden">
+  return <section id="inicio" className="min-h-screen flex items-center relative overflow-hidden">
       {/* Background Gradient */}
       <div className="absolute inset-0 bg-gradient-hero opacity-95"></div>
       
@@ -41,18 +39,11 @@ const Hero = () => {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4 mb-8">
-              <Button 
-                onClick={handleWhatsApp}
-                className="bg-naga-red hover:bg-naga-red-dark text-white font-semibold px-8 py-6 text-lg rounded-xl shadow-red"
-              >
+              <Button onClick={handleWhatsApp} className="bg-naga-red hover:bg-naga-red-dark text-white font-semibold px-8 py-6 text-lg rounded-xl shadow-red">
                 <Phone className="mr-2 h-5 w-5" />
                 Fale Conosco
               </Button>
-              <Button 
-                variant="outline" 
-                onClick={() => scrollToSection('servicos')}
-                className="border-2 border-naga-white text-naga-white hover:!bg-transparent hover:!border-naga-red hover:!text-naga-red font-semibold px-8 py-6 text-lg rounded-xl transition-all duration-300"
-              >
+              <Button variant="outline" onClick={() => scrollToSection('servicos')} className="border-2 border-naga- text-naga-white hover:!bg-transparent hover:!border-naga-red hover:!text-naga-red font-semibold px-8 py-6 text-lg rounded-xl transition-all duration-300">
                 Ver Produtos
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
@@ -75,17 +66,11 @@ const Hero = () => {
           <div className="flex justify-center lg:justify-end">
             <div className="relative">
               <div className="absolute inset-0 bg-naga-red/20 rounded-full blur-2xl"></div>
-              <img 
-                src="/lovable-uploads/b76b61ba-7665-413a-a800-8d4e885996ab.png" 
-                alt="Naga Soluções - Especialistas em Embalagens" 
-                className="relative z-10 w-80 h-auto drop-shadow-2xl"
-              />
+              <img src="/lovable-uploads/b76b61ba-7665-413a-a800-8d4e885996ab.png" alt="Naga Soluções - Especialistas em Embalagens" className="relative z-10 w-80 h-auto drop-shadow-2xl" />
             </div>
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Hero;
