@@ -282,7 +282,7 @@ const Services = () => {
     }
   ];
 
-  const categories = ['Todos', 'Embalagens', 'Fita adesiva', 'Fitas de marcação solo', 'Arqueação', 'Proteção', 'Cobertura', 'Segurança', 'Ferramentas'];
+  const categories = ['Todos', 'Embalagens', 'Fita adesiva', 'Fitas de marcação solo', 'Arqueação', 'Cobertura', 'Segurança'];
   const [selectedCategory, setSelectedCategory] = useState('Todos');
 
   const filteredProducts = selectedCategory === 'Todos' 
