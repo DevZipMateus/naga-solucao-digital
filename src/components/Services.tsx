@@ -73,32 +73,32 @@ const Services = () => {
     {
       name: 'FITA CUIDADO FRAGIL 45X100M',
       image: '/Naga solues LTDA_imagens_cliente/Cliente_1_12_FITA CUIDADO FRAGIL 45X100M.jpg',
-      category: 'Sinalização'
+      category: 'Fitas de marcação solo'
     },
     {
       name: 'FITA DEMARCACAO SOLO VERDE 45X',
       image: '/Naga solues LTDA_imagens_cliente/Cliente_1_13_FITA DEMARCACAO SOLO VERDE 45X.jpeg',
-      category: 'Sinalização'
+      category: 'Fitas de marcação solo'
     },
     {
       name: 'FITA DEMARCACAO SOLO AZUL 45X',
       image: '/Naga solues LTDA_imagens_cliente/Cliente_1_14_FITA DEMARCACAO SOLO  AZUL 45X.jpeg',
-      category: 'Sinalização'
+      category: 'Fitas de marcação solo'
     },
     {
       name: 'FITA DEMARCACAO SOLO VERMELHA',
       image: '/Naga solues LTDA_imagens_cliente/Cliente_1_15_FITA DEMARCACAO SOLO VERMELHA.jpeg',
-      category: 'Sinalização'
+      category: 'Fitas de marcação solo'
     },
     {
       name: 'FITA ZEBRADA 45X 100M',
       image: '/Naga solues LTDA_imagens_cliente/Cliente_1_16_FITA ZEBRADA 45X 100M.jpeg',
-      category: 'Sinalização'
+      category: 'Fitas de marcação solo'
     },
     {
       name: 'CORRENTE PLASTICA',
       image: '/Naga solues LTDA_imagens_cliente/Cliente_1_45_CORRENTE PLASTICA.jpeg',
-      category: 'Sinalização'
+      category: 'Fitas de marcação solo'
     },
     {
       name: 'FITA CREPE 48X50M',
@@ -282,7 +282,7 @@ const Services = () => {
     }
   ];
 
-  const categories = ['Todos', 'Embalagens', 'Fita adesiva', 'Sinalização', 'Arqueação', 'Proteção', 'Cobertura', 'Segurança', 'Ferramentas'];
+  const categories = ['Todos', 'Embalagens', 'Fita adesiva', 'Fitas de marcação solo', 'Arqueação', 'Proteção', 'Cobertura', 'Segurança', 'Ferramentas'];
   const [selectedCategory, setSelectedCategory] = useState('Todos');
 
   const filteredProducts = selectedCategory === 'Todos' 
