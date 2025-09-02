@@ -111,12 +111,12 @@ const Services = () => {
       category: 'Fita adesiva'
     },
     {
-      name: 'FITA ADESIVA MARRON 45x40 e 45',
+      name: 'Fita marrom - 45x40M e 45x100M',
       image: '/Naga solues LTDA_imagens_cliente/Cliente_1_20_FITA ADESIVA MARRON 45x40 e 45.jpeg',
       category: 'Fita adesiva'
     },
     {
-      name: 'FITA ADESIVA 45X40 45X100 45X2',
+      name: 'Fita adesiva 45x40M, 45x100M, 45x200M e 45x250M',
       image: '/Naga solues LTDA_imagens_cliente/Cliente_1_21_FITA ADESIVA 45X40 45X100 45X2.jpg',
       category: 'Fita adesiva'
     },
