@@ -73,7 +73,7 @@ const Services = () => {
     {
       name: 'FITA CUIDADO FRAGIL 45X100M',
       image: '/Naga solues LTDA_imagens_cliente/Cliente_1_12_FITA CUIDADO FRAGIL 45X100M.jpg',
-      category: 'Fitas de marcação solo'
+      category: 'Fita adesiva'
     },
     {
       name: 'FITA DEMARCACAO SOLO VERDE 45X',
