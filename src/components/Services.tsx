@@ -103,27 +103,27 @@ const Services = () => {
     {
       name: 'FITA CREPE 48X50M',
       image: '/Naga solues LTDA_imagens_cliente/Cliente_1_17_FITA CREPE 48X50M.jpeg',
-      category: 'Adesivos'
+      category: 'Fita adesiva'
     },
     {
       name: 'FITA CREPE 18x50M',
       image: '/Naga solues LTDA_imagens_cliente/Cliente_1_25_FITA CREPE 18x50M.jpeg',
-      category: 'Adesivos'
+      category: 'Fita adesiva'
     },
     {
       name: 'FITA ADESIVA MARRON 45x40 e 45',
       image: '/Naga solues LTDA_imagens_cliente/Cliente_1_20_FITA ADESIVA MARRON 45x40 e 45.jpeg',
-      category: 'Adesivos'
+      category: 'Fita adesiva'
     },
     {
       name: 'FITA ADESIVA 45X40 45X100 45X2',
       image: '/Naga solues LTDA_imagens_cliente/Cliente_1_21_FITA ADESIVA 45X40 45X100 45X2.jpg',
-      category: 'Adesivos'
+      category: 'Fita adesiva'
     },
     {
       name: 'SILVER TAPE 45x50M',
       image: '/Naga solues LTDA_imagens_cliente/Cliente_1_29_SILVER TAPE 45x50M.jpeg',
-      category: 'Adesivos'
+      category: 'Fita adesiva'
     },
     {
       name: 'FITA ARQUEAR 10mm',
@@ -282,7 +282,7 @@ const Services = () => {
     }
   ];
 
-  const categories = ['Todos', 'Embalagens', 'Adesivos', 'Sinalização', 'Arqueação', 'Proteção', 'Cobertura', 'Segurança', 'Ferramentas'];
+  const categories = ['Todos', 'Embalagens', 'Fita adesiva', 'Sinalização', 'Arqueação', 'Proteção', 'Cobertura', 'Segurança', 'Ferramentas'];
   const [selectedCategory, setSelectedCategory] = useState('Todos');
 
   const filteredProducts = selectedCategory === 'Todos' 
