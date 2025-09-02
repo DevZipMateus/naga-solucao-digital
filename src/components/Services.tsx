@@ -136,7 +136,7 @@ const Services = () => {
       category: 'Arqueação'
     },
     {
-      name: 'FITA ARQUEAR 1316 e 19mm',
+      name: 'FITA ARQUEAR 13,16 e 19mm',
       image: '/Naga solues LTDA_imagens_cliente/Cliente_1_24_FITA ARQUEAR 1316 e 19mm.jpeg',
       category: 'Arqueação'
     },
@@ -146,17 +146,17 @@ const Services = () => {
       category: 'Arqueação'
     },
     {
-      name: 'SELO METALICO 1316 E 19mm',
+      name: 'SELO METALICO 13,16 E 19mm',
       image: '/Naga solues LTDA_imagens_cliente/Cliente_1_28_SELO METALICO 1316 E 19mm.jpeg',
       category: 'Arqueação'
     },
     {
-      name: 'ALICATE FITA ARQUEAR 1316 e 19',
+      name: 'ALICATE FITA ARQUEAR 13,16 e 19',
       image: '/Naga solues LTDA_imagens_cliente/Cliente_1_18_ALICATE FITA ARQUEAR 1316 e 19.jpeg',
       category: 'Ferramentas'
     },
     {
-      name: 'ESTICADOR FITA ARQUEAR 1316 e',
+      name: 'ESTICADOR FITA ARQUEAR 13,16 e',
       image: '/Naga solues LTDA_imagens_cliente/Cliente_1_19_ESTICADOR FITA ARQUEAR 1316 e.jpeg',
       category: 'Ferramentas'
     },
