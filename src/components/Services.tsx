@@ -163,126 +163,126 @@ const Services = () => {
     {
       name: 'PROTETOR AURICULAR PLUG',
       image: '/Naga solues LTDA_imagens_cliente/Cliente_1_30_PROTETOR AURICULAR PLUG.jpeg',
-      category: 'Segurança'
+      category: 'E.P.I'
     },
     {
       name: 'AVENTAL RASPA',
       image: '/Naga solues LTDA_imagens_cliente/Cliente_1_31_AVENTAL RASPA.jpeg',
-      category: 'Segurança'
+      category: 'E.P.I'
     },
     {
       name: 'CINTA ERGONOMICA',
       image: '/Naga solues LTDA_imagens_cliente/Cliente_1_32_CINTA ERGONOMICA.jpeg',
-      category: 'Segurança'
+      category: 'E.P.I'
     },
     {
       name: 'LUVA TRICOTADA PIGMENTADA PRET',
       image: '/Naga solues LTDA_imagens_cliente/Cliente_1_33_LUVA TRICOTADA PIGMENTADA PRET.jpeg',
-      category: 'Segurança'
+      category: 'E.P.I'
     },
     {
       name: 'LUVA TRICOTADA BRANCA',
       image: '/Naga solues LTDA_imagens_cliente/Cliente_1_34_LUVA TRICOTADA BRANCA.jpeg',
-      category: 'Segurança'
+      category: 'E.P.I'
     },
     {
       name: 'LUVA VAQUETA CANO 15 CM',
       image: '/Naga solues LTDA_imagens_cliente/Cliente_1_35_LUVA VAQUETA CANO 15 CM.jpeg',
-      category: 'Segurança'
+      category: 'E.P.I'
     },
     {
       name: 'LUVA NITRILICA',
       image: '/Naga solues LTDA_imagens_cliente/Cliente_1_36_LUVA NITRILICA.jpg',
-      category: 'Segurança'
+      category: 'E.P.I'
     },
     {
       name: 'MASCARA COM FILTRO',
       image: '/Naga solues LTDA_imagens_cliente/Cliente_1_37_MASCARA COM FILTRO.jpeg',
-      category: 'Segurança'
+      category: 'E.P.I'
     },
     {
       name: 'MASCARA SEM FILTRO',
       image: '/Naga solues LTDA_imagens_cliente/Cliente_1_38_MASCARA SEM FILTRO.jpeg',
-      category: 'Segurança'
+      category: 'E.P.I'
     },
     {
       name: 'CAPACETE VERMELHO',
       image: '/Naga solues LTDA_imagens_cliente/Cliente_1_39_CAPACETE VERMELHO.jpeg',
-      category: 'Segurança'
+      category: 'E.P.I'
     },
     {
       name: 'CAPACETE AZUL',
       image: '/Naga solues LTDA_imagens_cliente/Cliente_1_40_CAPACETE AZUL.jpeg',
-      category: 'Segurança'
+      category: 'E.P.I'
     },
     {
       name: 'LUVA RASPA CANO LONGO',
       image: '/Naga solues LTDA_imagens_cliente/Cliente_1_41_LUVA RASPA CANO LONGO.jpeg',
-      category: 'Segurança'
+      category: 'E.P.I'
     },
     {
       name: 'COLETE VERDE',
       image: '/Naga solues LTDA_imagens_cliente/Cliente_1_43_COLETE VERDE.jpg',
-      category: 'Segurança'
+      category: 'E.P.I'
     },
     {
       name: 'COLETE LARANJA',
       image: '/Naga solues LTDA_imagens_cliente/Cliente_1_44_COLETE LARANJA.jpg',
-      category: 'Segurança'
+      category: 'E.P.I'
     },
     {
       name: 'JUGULAR',
       image: '/Naga solues LTDA_imagens_cliente/Cliente_1_46_JUGULAR.jpeg',
-      category: 'Segurança'
+      category: 'E.P.I'
     },
     {
       name: 'LUVA VULCANIZADA',
       image: '/Naga solues LTDA_imagens_cliente/Cliente_1_47_LUVA VULCANIZADA.jpeg',
-      category: 'Segurança'
+      category: 'E.P.I'
     },
     {
       name: 'MACACAO BRANCO',
       image: '/Naga solues LTDA_imagens_cliente/Cliente_1_48_MACACAO BRANCO.jpeg',
-      category: 'Segurança'
+      category: 'E.P.I'
     },
     {
       name: 'OCULOS FUME',
       image: '/Naga solues LTDA_imagens_cliente/Cliente_1_49_OCULOS FUME.jpeg',
-      category: 'Segurança'
+      category: 'E.P.I'
     },
     {
       name: 'OCULOS INCOLOR',
       image: '/Naga solues LTDA_imagens_cliente/Cliente_1_50_OCULOS INCOLOR.jpeg',
-      category: 'Segurança'
+      category: 'E.P.I'
     },
     {
       name: 'PERNEIRA',
       image: '/Naga solues LTDA_imagens_cliente/Cliente_1_51_PERNEIRA.jpeg',
-      category: 'Segurança'
+      category: 'E.P.I'
     },
     {
       name: 'PROTETOR CONCHA',
       image: '/Naga solues LTDA_imagens_cliente/Cliente_1_52_PROTETOR  CONCHA.jpg',
-      category: 'Segurança'
+      category: 'E.P.I'
     },
     {
       name: 'SINTO PARAQUEDAS',
       image: '/Naga solues LTDA_imagens_cliente/Cliente_1_53_SINTO PARAQUEDAS.jpeg',
-      category: 'Segurança'
+      category: 'E.P.I'
     },
     {
       name: 'BOTA SEGURANA BICO AO',
       image: '/Naga solues LTDA_imagens_cliente/Cliente_1_54_BOTA SEGURANA BICO AO.jpg',
-      category: 'Segurança'
+      category: 'E.P.I'
     },
     {
       name: 'BOTA SEGURANA BICO PVC',
       image: '/Naga solues LTDA_imagens_cliente/Cliente_1_55_BOTA SEGURANA BICO PVC.jpg',
-      category: 'Segurança'
+      category: 'E.P.I'
     }
   ];
 
-  const categories = ['Todos', 'Embalagens', 'Fita adesiva', 'Fitas de marcação solo', 'Arqueação', 'Segurança'];
+  const categories = ['Todos', 'Embalagens', 'Fita adesiva', 'Fitas de marcação solo', 'Arqueação', 'E.P.I'];
   const [selectedCategory, setSelectedCategory] = useState('Todos');
 
   const filteredProducts = selectedCategory === 'Todos' 
